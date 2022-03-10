@@ -1,7 +1,7 @@
 import DiscordJS, { Intents, Message, TextChannel } from 'discord.js';
 import dotenv from 'dotenv';
 
-// dotenv.config();
+dotenv.config();
 
 const client = new DiscordJS.Client({
     presence: {
