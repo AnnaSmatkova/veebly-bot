@@ -47,7 +47,7 @@ client.on("guildMemberAdd", member => {
         .setFooter({text: "mc.veebly.net"});
 
     if ( channel ) {
-        (channel as TextChannel).send({ embeds: [embed] });
+        channel.send({ embeds: [embed] });
     }
   }
 })
