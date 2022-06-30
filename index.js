@@ -26,7 +26,7 @@ client.on("ready", () => {
 })
 
 client.on("guildMemberAdd", member => {
-    const role = member.guild.roles.cache.find(role => role.name === "Member");
+    const role = member.guild.roles.cache.find(role => role.name === "╘ Member");
 
     if (role) {
         member.roles.add(role);
